@@ -12,9 +12,14 @@
     justify-content: space-between;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
     font-size: 19px;
     margin: 10px 5px;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #ff0066;
+    text-decoration:underline;
 }
 
 .navbar-nav .inicio {
