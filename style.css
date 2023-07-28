@@ -3,8 +3,9 @@
 .navbar {
     padding: 0.2rem;
     margin-right: 140px;
+    margin-top: 20px;
     background-color: transparent;
-    font-family: 'Playfair', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-collapse {
@@ -12,9 +13,14 @@
     justify-content: space-between;
 }
 
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+}
+
 .navbar-nav .nav-item {
     font-size: 19px;
-    margin: 10px 5px;
+    margin: 10px 10px;
 }
 
 .navbar-nav .nav-item a:hover {
