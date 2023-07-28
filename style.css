@@ -1,3 +1,7 @@
+p {
+    margin: 0 0 10px;
+}
+
 /* Barra de navegacion */
 
 .navbar {
@@ -47,6 +51,8 @@
     text-decoration: none;
 }
 
+/* Galeria */
+
 .galeria {
     display: flex;
     width: 1400px;
@@ -66,4 +72,47 @@
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
+
+/* Sobre nosotros */
+
+.sobre-nosotros {
+    display: flex;
+    width: 1400px;
+    height: 1130px;
+    color: white;
+    background-color: black;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+.mu-about-area {
+    display: inline;
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.mu-heading-title {
+    color: white;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.mu-header-dot {
+    background-color: #A290FF;
+    border-radius: 0;
+    height: 3px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+
+.mu-about-header {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
 }
