@@ -17,10 +17,12 @@
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     color: white;
+    text-shadow: 4px 4px 7px black;
 }
 
 .navbar-brand:hover {
     color: #ff0066;
+    text-shadow: none;
 }
 
 .navbar-nav .nav-item {
@@ -31,11 +33,13 @@
 .navbar-nav .nav-item .nav-link {
     font-weight:400;
     color: white;
+    text-shadow: 3px 3px 6px black;
 }
 
 .navbar-nav .nav-item a:hover {
     color: #ff0066;
     text-decoration:underline;
+    text-shadow: none;
 }
 
 .navbar-nav .inicio {
