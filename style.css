@@ -1,0 +1,23 @@
+/* Barra de navegacion */
+
+.navbar {
+    padding: 0.2rem;
+    margin-right: 140px;
+    background-color: transparent;
+    font-family: 'Playfair', serif;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-item{
+    font-size: 19px;
+    margin: 10px 5px;
+}
+
+.navbar-nav .inicio {
+    color: #ff0066;
+    text-decoration: none;
+}
