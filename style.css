@@ -24,6 +24,11 @@
     margin: 10px 10px;
 }
 
+.navbar-nav .nav-item .nav-link {
+    font-weight:400;
+    color: white;
+}
+
 .navbar-nav .nav-item a:hover {
     color: #ff0066;
     text-decoration:underline;
