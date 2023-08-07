@@ -5,7 +5,7 @@ p {
 /* Barra de navegacion */
 
 .navbar {
-    background: linear-gradient(rgb(8, 8, 9), rgba(0,0,0,0));
+    background: linear-gradient(rgb(28, 28, 31),65%, rgba(0,0,0,0));
     width: 100%;
     position: fixed;
     padding: 15px 0;
