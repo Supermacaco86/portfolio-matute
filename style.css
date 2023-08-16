@@ -2,6 +2,15 @@ p {
     margin: 0 0 10px;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+}
+
 /* Barra de navegacion */
 
 .navbar {
@@ -87,6 +96,19 @@ p {
     object-fit: cover;
 }
 
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mu-about {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+
 .mu-about-area {
     display: inline;
     float: left;
@@ -116,4 +138,28 @@ p {
     float: left;
     text-align: center;
     width: 100%;
+}
+
+.mu-about-content-single {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.icon-settings:before {
+    content: "\e09a";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mu-about-icon-box {
+    font-size: 25px;
+    padding: 5px 12px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border-radius: 10px;
 }
