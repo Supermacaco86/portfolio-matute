@@ -146,7 +146,6 @@ body {
 }
 
 .mu-about-content-single {
-    color: #ff0066;
     display: inline;
     float: left;
     text-align: center;
@@ -154,6 +153,7 @@ body {
 }
 
 .mu-about-icon-box {
+    color: #ff0066;
     font-size: 25px;
     padding: 5px 12px;
     margin-bottom: 30px;
