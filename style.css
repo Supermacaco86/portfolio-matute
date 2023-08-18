@@ -116,6 +116,13 @@ body {
     width: 100%;
 }
 
+.mu-about-header {
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
 .mu-heading-title {
     color: white;
     margin-bottom: 15px;
@@ -131,29 +138,19 @@ body {
     margin-bottom: 20px;
 }
 
-
-
-.mu-about-header {
+.mu-about-content {
     display: inline;
     float: left;
-    text-align: center;
+    margin-top: 70px;
     width: 100%;
 }
 
 .mu-about-content-single {
+    color: #ff0066;
     display: inline;
     float: left;
     text-align: center;
     width: 100%;
-}
-
-.icon-settings:before {
-    content: "\e09a";
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .mu-about-icon-box {
@@ -163,3 +160,6 @@ body {
     display: inline-block;
     border-radius: 10px;
 }
+
+
+
